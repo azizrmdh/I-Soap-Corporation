@@ -1,0 +1,58 @@
+html, body {
+    height: 100%; /* Pastikan halaman selalu memiliki tinggi penuh */
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Memaksa konten utama mengambil sisa ruang */
+}
+
+footer {
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+    padding: 20px 0;
+}
+
+.text-green {
+    color: #28a745; /* Hijau tema */
+}
+
+.team-card {
+    border: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.team-image img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    margin-top: -50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-body h5 {
+    font-weight: 700;
+}
+
+.card-body p {
+    font-size: 0.9rem;
+}
+
+.text-green {
+    color: #28a745; /* Warna hijau sesuai tema */
+    font-weight: bold;
+}
