@@ -78,3 +78,58 @@ h2 {
     background-color: #218838;
     transition: 0.3s;
 }
+
+.text-green {
+    color: #28a745; /* Hijau sesuai dengan tema I SOAP */
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #28a745;
+    text-transform: uppercase;
+}
+
+.lead {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.about-us .image-container {
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us .image-container img {
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-us .image-container img:hover {
+    transform: scale(1.05);
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.about-us section {
+    padding: 60px 0;
+}
+
+@media (max-width: 768px) {
+    .about-us h2 {
+        font-size: 2rem;
+    }
+    .about-us .lead {
+        font-size: 1rem;
+    }
+}
