@@ -56,3 +56,25 @@ footer {
     color: #28a745; /* Warna hijau sesuai tema */
     font-weight: bold;
 }
+
+.text-green {
+    color: #28a745; /* Hijau tema */
+}
+
+.bg-light {
+    background-color: #f9f9f9; /* Latar belakang terang */
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    transition: 0.3s;
+}
