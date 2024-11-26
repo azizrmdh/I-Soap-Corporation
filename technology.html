@@ -1,127 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technology - I SOAP</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Teknologi | I SOAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-        }
-        body {
-            display: flex;
-            flex-direction: column;
-        }
-        main {
-            flex: 1;
-        }
-        .page-header {
-            background-color: #81c784;
+        .hero-section {
+            background: linear-gradient(to bottom, #1e7e34, #28a745);
             color: white;
-            padding: 50px 0;
+            padding: 50px 20px;
             text-align: center;
         }
-        .tech-item {
-            margin-bottom: 30px;
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
         }
-        .tech-item h4 {
-            color: #4caf50;
+        .tech-card h5 {
+            color: #28a745;
         }
-        footer {
-            text-align: center;
-            background-color: #4caf50;
+        .footer {
+            background-color: #28a745;
             color: white;
+            text-align: center;
             padding: 20px 0;
-        }
-        footer a {
-            color: white;
-            text-decoration: underline;
+            margin-top: 50px;
         }
     </style>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #4caf50;">
-        <div class="container">
-            <a class="navbar-brand text-white" href="index.html">I SOAP</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link text-white active" href="technology.html">Technology</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
-                </ul>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>Teknologi Kami</h1>
+        <p class="lead">Menggabungkan inovasi modern dengan bahan alami untuk pembersihan terbaik.</p>
+    </section>
+
+    <!-- Teknologi -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- Teknologi 1 -->
+            <div class="col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Saponifikasi Ramah Lingkungan</h5>
+                        <p class="card-text">Proses aman dan efisien yang mengubah minyak alami menjadi sabun tanpa residu berbahaya.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Teknologi 2 -->
+            <div class="col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Formulasi Inovatif</h5>
+                        <p class="card-text">Kombinasi minyak alami, gliserin, dan minyak esensial untuk pembersihan efektif dan perawatan kulit.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Teknologi 3 -->
+            <div class="col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistem Penyeimbangan pH</h5>
+                        <p class="card-text">Memastikan tingkat pH yang ramah kulit untuk menghindari iritasi.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Teknologi 4 -->
+            <div class="col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Pengemasan Ramah Lingkungan</h5>
+                        <p class="card-text">Menggunakan material biodegradable untuk mengurangi limbah.</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-
-    <!-- Page Header -->
-    <div class="page-header">
-        <h1>Our Technology</h1>
-        <p>Innovative, eco-friendly solutions to ensure effective cleaning.</p>
     </div>
 
-    <!-- Content -->
-    <main>
-        <section class="py-5">
-            <div class="container">
-                <div class="row">
-                    <!-- Technology Item 1 -->
-                    <div class="col-md-6 tech-item">
-                        <h4>Eco-friendly Saponification</h4>
-                        <p>
-                            A safe and efficient process that transforms natural oils into soap without harmful residues. 
-                            This ensures both safety for the user and minimal environmental impact.
-                        </p>
-                    </div>
-                    <!-- Technology Item 2 -->
-                    <div class="col-md-6 tech-item">
-                        <h4>Innovative Formulation</h4>
-                        <p>
-                            By combining natural oils, glycerin, and essential oils, we deliver products that are effective 
-                            for cleaning while being gentle on skin and environmentally conscious.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Technology Item 3 -->
-                    <div class="col-md-6 tech-item">
-                        <h4>Safe pH Balancing System</h4>
-                        <p>
-                            Our technology maintains a skin-friendly pH level to prevent irritation, making I SOAP 
-                            suitable for sensitive skin and everyday use.
-                        </p>
-                    </div>
-                    <!-- Technology Item 4 -->
-                    <div class="col-md-6 tech-item">
-                        <h4>Eco-friendly Packaging</h4>
-                        <p>
-                            We use biodegradable materials for our packaging to reduce waste and support sustainability, 
-                            ensuring our commitment to the environment.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
     <!-- Footer -->
-    <footer>
-        <p>© 2024 I SOAP. All rights reserved. | <a href="#">Privacy Policy</a></p>
-        <p>Follow us: 
-            <a href="#">Facebook</a> | 
-            <a href="#">Instagram</a> | 
-            <a href="#">Twitter</a>
-        </p>
-    </footer>
+    <div class="footer">
+        <p>&copy; 2024 I SOAP. Semua hak cipta dilindungi.</p>
+    </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
