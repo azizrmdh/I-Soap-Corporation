@@ -35,6 +35,21 @@
             font-size: 3rem;
             font-weight: bold;
         }
+        .tech-card {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .tech-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .tech-card h5 {
+            color: #28a745;
+            font-weight: bold;
+            margin-top: 15px;
+        }
         .footer {
             background-color: #28a745;
             color: white;
@@ -67,28 +82,69 @@
     <!-- Hero Section -->
     <section class="hero-section">
         <h1>Teknologi Kami</h1>
-        <p class="lead">Menggabungkan inovasi modern dengan bahan alami untuk pembersihan terbaik.</p>
+        <p class="lead">Menggabungkan inovasi modern dengan bahan alami untuk solusi pembersihan terbaik.</p>
     </section>
 
     <!-- Main Content -->
     <main>
         <div class="container py-5">
+            <!-- Deskripsi Utama -->
+            <div class="text-center mb-5">
+                <h3 class="text-green fw-bold">Teknologi Utama I SOAP</h3>
+                <p>Berikut adalah teknologi yang mendukung produk I SOAP untuk memberikan hasil terbaik bagi Anda dan lingkungan.</p>
+            </div>
             <div class="row">
+                <!-- Teknologi 1 -->
                 <div class="col-md-6 mb-4">
-                    <h5 class="text-green">Saponifikasi Ramah Lingkungan</h5>
-                    <p>Proses aman dan efisien yang mengubah minyak alami menjadi sabun tanpa residu berbahaya.</p>
+                    <div class="tech-card">
+                        <img src="images/saponification.jpg" alt="Saponifikasi Ramah Lingkungan">
+                        <div class="p-3">
+                            <h5>Saponifikasi Ramah Lingkungan</h5>
+                            <p>
+                                Proses aman dan efisien yang mengubah minyak alami menjadi sabun tanpa residu berbahaya. 
+                                Dengan teknik ini, produk I SOAP memberikan pembersihan optimal sekaligus menjaga lingkungan tetap sehat.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+                <!-- Teknologi 2 -->
                 <div class="col-md-6 mb-4">
-                    <h5 class="text-green">Formulasi Inovatif</h5>
-                    <p>Kombinasi minyak alami, gliserin, dan minyak esensial untuk pembersihan efektif dan perawatan kulit.</p>
+                    <div class="tech-card">
+                        <img src="images/innovative-formulation.jpg" alt="Formulasi Inovatif">
+                        <div class="p-3">
+                            <h5>Formulasi Inovatif</h5>
+                            <p>
+                                I SOAP menggunakan kombinasi bahan alami seperti minyak kelapa, gliserin, dan minyak esensial. 
+                                Formulasi ini tidak hanya membersihkan secara efektif tetapi juga menjaga kelembapan dan kesehatan kulit.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+                <!-- Teknologi 3 -->
                 <div class="col-md-6 mb-4">
-                    <h5 class="text-green">Sistem Penyeimbangan pH</h5>
-                    <p>Memastikan tingkat pH yang ramah kulit untuk menghindari iritasi.</p>
+                    <div class="tech-card">
+                        <img src="images/ph-balance.jpg" alt="Sistem Penyeimbangan pH">
+                        <div class="p-3">
+                            <h5>Sistem Penyeimbangan pH</h5>
+                            <p>
+                                Dengan pH yang seimbang, I SOAP aman digunakan untuk semua jenis kulit, termasuk kulit sensitif. 
+                                Ini membantu mencegah iritasi dan memastikan kebersihan maksimal tanpa merusak lapisan pelindung kulit.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+                <!-- Teknologi 4 -->
                 <div class="col-md-6 mb-4">
-                    <h5 class="text-green">Pengemasan Ramah Lingkungan</h5>
-                    <p>Menggunakan material biodegradable untuk mengurangi limbah.</p>
+                    <div class="tech-card">
+                        <img src="images/eco-packaging.jpg" alt="Pengemasan Ramah Lingkungan">
+                        <div class="p-3">
+                            <h5>Pengemasan Ramah Lingkungan</h5>
+                            <p>
+                                Produk I SOAP dikemas menggunakan material biodegradable yang dapat terurai secara alami, 
+                                membantu mengurangi limbah plastik dan mendukung keberlanjutan.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
