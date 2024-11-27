@@ -1,160 +1,155 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Teknologi | I SOAP</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <style>
-        html, body {
-            height: 100%;
-        }
-        body {
-            display: flex;
-            flex-direction: column;
-        }
-        main {
-            flex: 1;
-        }
-        .navbar {
-            background-color: #28a745;
-        }
-        .navbar-brand img {
-            height: 40px;
-        }
-        .navbar .nav-link {
-            color: white !important;
-        }
-        .hero-section {
-            background: linear-gradient(to bottom, #1e7e34, #28a745);
-            color: white;
-            padding: 50px 20px;
-            text-align: center;
-        }
-        .hero-section h1 {
-            font-size: 3rem;
-            font-weight: bold;
-        }
-        .tech-card {
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            overflow: hidden;
-        }
-        .tech-card img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-        .tech-card h5 {
-            color: #28a745;
-            font-weight: bold;
-            margin-top: 15px;
-        }
-        .footer {
-            background-color: #28a745;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      main {
+        flex: 1;
+      }
+      .navbar {
+        background-color: #28a745;
+      }
+      .navbar .nav-link {
+        color: white !important;
+      }
+      .hero-section {
+        background: linear-gradient(to top, #28a745, #1e7e34);
+        color: white;
+        padding: 50px 20px;
+        text-align: center;
+      }
+      .hero-section h1 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .tech-card {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .tech-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .tech-card h5 {
+        color: #28a745;
+        font-weight: bold;
+        margin-top: 15px;
+      }
+      .footer {
+        background-color: #28a745;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="image/logo-isoap.png" alt="I SOAP Logo" width="100" height="50" class="d-inline-block align-text-top">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="technology.html">Technology</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg" style="background-color: #28a745">
+      <div class="container">
+        <!-- Logo sebagai brand -->
+        <a class="navbar-brand text-white" href="index.html">
+          <img src="image/logo-isoap.png" alt="I SOAP Logo" width="100" height="auto" class="d-inline-block align-text-top" />
+        </a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="technology.html">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero-section">
-        <h1>Teknologi Kami</h1>
-        <p class="lead">Menggabungkan inovasi modern dengan bahan alami untuk solusi pembersihan terbaik.</p>
+      <h1>Teknologi Kami</h1>
+      <p class="lead">Menggabungkan inovasi modern dengan bahan alami untuk solusi pembersihan terbaik.</p>
     </section>
 
     <!-- Main Content -->
     <main>
-        <div class="container py-5">
-            <!-- Deskripsi Utama -->
-            <div class="text-center mb-5">
-                <h3 class="text-green fw-bold">Teknologi Utama I SOAP</h3>
-                <p>Berikut adalah teknologi yang mendukung produk I SOAP untuk memberikan hasil terbaik bagi Anda dan lingkungan.</p>
-            </div>
-            <div class="row">
-                <!-- Teknologi 1 -->
-                <div class="col-md-6 mb-4">
-                    <div class="tech-card">
-                        <img src="image/saponifikasi.jpg" alt="Saponifikasi Ramah Lingkungan">
-                        <div class="p-3">
-                            <h5>Saponifikasi Ramah Lingkungan</h5>
-                            <p>
-                                Proses aman dan efisien yang mengubah minyak alami menjadi sabun tanpa residu berbahaya. 
-                                Dengan teknik ini, produk I SOAP memberikan pembersihan optimal sekaligus menjaga lingkungan tetap sehat.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Teknologi 2 -->
-                <div class="col-md-6 mb-4">
-                    <div class="tech-card">
-                        <img src="image/formulasi-inovatif.png" alt="Formulasi Inovatif">
-                        <div class="p-3">
-                            <h5>Formulasi Inovatif</h5>
-                            <p>
-                                I SOAP menggunakan kombinasi bahan alami seperti minyak kelapa, gliserin, dan minyak esensial. 
-                                Formulasi ini tidak hanya membersihkan secara efektif tetapi juga menjaga kelembapan dan kesehatan kulit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Teknologi 3 -->
-                <div class="col-md-6 mb-4">
-                    <div class="tech-card">
-                        <img src="image/penyeimbangan-ph.jpg" alt="Sistem Penyeimbangan pH">
-                        <div class="p-3">
-                            <h5>Sistem Penyeimbangan pH</h5>
-                            <p>
-                                Dengan pH yang seimbang, I SOAP aman digunakan untuk semua jenis kulit, termasuk kulit sensitif. 
-                                Ini membantu mencegah iritasi dan memastikan kebersihan maksimal tanpa merusak lapisan pelindung kulit.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Teknologi 4 -->
-                <div class="col-md-6 mb-4">
-                    <div class="tech-card">
-                        <img src="image/pengemasan-ramah.jpg" alt="Pengemasan Ramah Lingkungan">
-                        <div class="p-3">
-                            <h5>Pengemasan Ramah Lingkungan</h5>
-                            <p>
-                                Produk I SOAP dikemas menggunakan material biodegradable yang dapat terurai secara alami, 
-                                membantu mengurangi limbah plastik dan mendukung keberlanjutan.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container py-5">
+        <!-- Deskripsi Utama -->
+        <div class="text-center mb-5">
+          <h3 class="text-green fw-bold">Teknologi Utama I SOAP</h3>
+          <p>Berikut adalah teknologi yang mendukung produk I SOAP untuk memberikan hasil terbaik bagi Anda dan lingkungan.</p>
         </div>
+        <div class="row justify-content-md-center">
+          <!-- Teknologi 1 -->
+          <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+            <div class="tech-card" style="width: 18rem">
+              <img src="image/saponifikasi.jpg" alt="Saponifikasi Ramah Lingkungan" />
+              <div class="p-3">
+                <h5>Saponifikasi Ramah Lingkungan</h5>
+                <p>Proses aman dan efisien yang mengubah minyak alami menjadi sabun tanpa residu berbahaya. Dengan teknik ini, produk I SOAP memberikan pembersihan optimal sekaligus menjaga lingkungan tetap sehat.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Teknologi 2 -->
+          <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+            <div class="tech-card" style="width: 18rem">
+              <img src="image/formulasi-inovatif.png" alt="Formulasi Inovatif" />
+              <div class="p-3">
+                <h5>Formulasi Inovatif</h5>
+                <p>I SOAP menggunakan kombinasi bahan alami seperti minyak kelapa, gliserin, dan minyak esensial. Formulasi ini tidak hanya membersihkan secara efektif tetapi juga menjaga kelembapan dan kesehatan kulit.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Teknologi 3 -->
+          <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+            <div class="tech-card" style="width: 18rem">
+              <img src="image/penyeimbangan-ph.jpg" alt="Sistem Penyeimbangan pH" />
+              <div class="p-3">
+                <h5>Sistem Penyeimbangan pH</h5>
+                <p>Dengan pH yang seimbang, I SOAP aman digunakan untuk semua jenis kulit, termasuk kulit sensitif. Ini membantu mencegah iritasi dan memastikan kebersihan maksimal tanpa merusak lapisan pelindung kulit.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Teknologi 4 -->
+          <div class="col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+            <div class="tech-card" style="width: 18rem">
+              <img src="image/pengemasan-ramah.jpg" alt="Pengemasan Ramah Lingkungan" />
+              <div class="p-3">
+                <h5>Pengemasan Ramah Lingkungan</h5>
+                <p>Produk I SOAP dikemas menggunakan material biodegradable yang dapat terurai secara alami, membantu mengurangi limbah plastik dan mendukung keberlanjutan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <!-- Footer -->
     <footer class="footer mt-auto">
-        <p>&copy; 2024 I SOAP. Semua hak cipta dilindungi.</p>
+      <p>&copy; 2024 I SOAP. Semua hak cipta dilindungi.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
