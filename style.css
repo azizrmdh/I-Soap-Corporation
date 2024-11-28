@@ -1,136 +1,135 @@
 html, body {
-    height: 100%; /* Pastikan halaman selalu memiliki tinggi penuh */
-    margin: 0;
+  height: 100%; /* Pastikan halaman selalu memiliki tinggi penuh */
+  margin: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
-    flex: 1; /* Memaksa konten utama mengambil sisa ruang */
+  flex: 1; /* Memaksa konten utama mengambil sisa ruang */
 }
 
 footer {
-    text-align: center;
-    background-color: #4caf50;
-    color: white;
-    padding: 20px 0;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+  padding: 20px 0;
 }
 
 .text-green {
-    color: #28a745; /* Hijau tema */
+  color: #28a745; /* Hijau tema */
 }
 
 .team-card {
-    border: none;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: none;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .team-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .team-image img {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    margin: auto;
-    display: block;
-    margin-top: -50px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+  margin-top: -50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card-body h5 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .card-body p {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 .text-green {
-    color: #28a745; /* Warna hijau sesuai tema */
-    font-weight: bold;
+  color: #28a745; /* Warna hijau sesuai tema */
+  font-weight: bold;
 }
 
 .text-green {
-    color: #28a745; /* Hijau tema */
+  color: #28a745; /* Hijau tema */
 }
 
 .bg-light {
-    background-color: #f9f9f9; /* Latar belakang terang */
+  background-color: #f9f9f9; /* Latar belakang terang */
 }
 
 h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .btn-success {
-    background-color: #28a745;
-    border: none;
+  background-color: #28a745;
+  border: none;
 }
 
 .btn-success:hover {
-    background-color: #218838;
-    transition: 0.3s;
+  background-color: #218838;
+  transition: 0.3s;
 }
 
 .text-green {
-    color: #28a745; /* Hijau sesuai dengan tema I SOAP */
+  color: #28a745; /* Hijau sesuai dengan tema I SOAP */
 }
 
 h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    font-weight: bold;
-    color: #28a745;
-    text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #28a745;
+  text-transform: uppercase;
 }
 
 .lead {
-    font-size: 1.2rem;
-    color: #555;
+  font-size: 1.2rem;
+  color: #555;
 }
 
 .about-us .image-container {
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .about-us .image-container img {
-    border-radius: 15px;
-    transition: transform 0.3s ease-in-out;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .about-us .image-container img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .btn-success {
-    background-color: #28a745;
-    border: none;
-    transition: background-color 0.3s ease;
+  background-color: #28a745;
+  border: none;
+  transition: background-color 0.3s ease;
 }
 
 .btn-success:hover {
-    background-color: #218838;
+  background-color: #218838;
 }
 
 .about-us section {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 @media (max-width: 768px) {
-    .about-us h2 {
-        font-size: 2rem;
-    }
-    .about-us .lead {
-        font-size: 1rem;
-    }
+  .about-us h2 {
+      font-size: 2rem;
+  }
+  .about-us .lead {
+      font-size: 1rem;
+  }
 }
-
