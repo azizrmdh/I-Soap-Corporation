@@ -46,24 +46,96 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // List of keywords and synonyms for matching input
   const keywords = {
-    harga: ["harga", "biaya", "berapa harga", "produk ini harganya", "harga produk"],
+    harga: [
+      "harga",
+      "biaya",
+      "berapa harga",
+      "produk ini harganya",
+      "harga produk",
+    ],
     order: ["order", "pesan", "cara pesan", "beli produk", "mau beli", "beli"],
-    kontak: ["kontak", "hubungi", "nomor telepon", "email", "alamat", "cara menghubungi"],
-    keunggulan: ["keunggulan", "kelebihan", "kenapa memilih", "mengapa memilih", "produk", "sabun", "isoap", "I soap"],
-    cons: ["kerugian", "kekurangan", "apa yang kurang", "bukan kelebihan", "negatif"],
-    cara_penggunaan: ["cara penggunaan", "gunakan", "cara pakai", "cara memakai", "gunakan produk"],
+    kontak: [
+      "kontak",
+      "hubungi",
+      "nomor telepon",
+      "email",
+      "alamat",
+      "cara menghubungi",
+    ],
+    keunggulan: [
+      "keunggulan",
+      "kelebihan",
+      "kenapa memilih",
+      "mengapa memilih",
+      "produk",
+      "sabun",
+      "isoap",
+      "I soap",
+    ],
+    cons: [
+      "kerugian",
+      "kekurangan",
+      "apa yang kurang",
+      "bukan kelebihan",
+      "negatif",
+    ],
+    cara_penggunaan: [
+      "cara penggunaan",
+      "gunakan",
+      "cara pakai",
+      "cara memakai",
+      "gunakan produk",
+    ],
     manfaat: ["manfaat", "khasiat", "apa manfaat", "keuntungan", "apa khasiat"],
-    pengiriman: ["pengiriman", "kirim", "ongkos kirim", "biaya pengiriman", "pengantaran", "ongkir"],
-    penyimpanan: ["penyimpanan", "cara simpan", "menyimpan", "simpan produk", "simpan"],
+    pengiriman: [
+      "pengiriman",
+      "kirim",
+      "ongkos kirim",
+      "biaya pengiriman",
+      "pengantaran",
+      "ongkir",
+    ],
+    penyimpanan: [
+      "penyimpanan",
+      "cara simpan",
+      "menyimpan",
+      "simpan produk",
+      "simpan",
+    ],
     bahan: ["bahan", "komposisi", "apa bahan", "apa yang terkandung"],
-    visi: ["apa visi", "visi perusahaan", "visi", "visinya", "apa tujuan perusahaan"],
-    misi: ["apa misi", "misi perusahaan", "misi", "misinya", "apa misi perusahaan"],
-    ceo: ["siapa ceo", "ceo perusahaan", "pemilik perusahaan", "siapa CEO", "ceo", "egi"],
+    visi: [
+      "apa visi",
+      "visi perusahaan",
+      "visi",
+      "visinya",
+      "apa tujuan perusahaan",
+    ],
+    misi: [
+      "apa misi",
+      "misi perusahaan",
+      "misi",
+      "misinya",
+      "apa misi perusahaan",
+    ],
+    ceo: [
+      "siapa ceo",
+      "ceo perusahaan",
+      "pemilik perusahaan",
+      "siapa CEO",
+      "ceo",
+      "egi",
+    ],
     cfo: ["siapa cfo", "cfo perusahaan", "siapa CFO", "cfo", "fajrun"],
     cmo: ["siapa cmo", "cmo perusahaan", "siapa CMO", "cfo", "izzudin"],
     cto: ["siapa cto", "cto perusahaan", "siapa CTO", "cto", "aziz"],
     coo: ["siapa coo", "coo perusahaan", "siapa COO", "coo", "rafli"],
-    latar_belakang: ["latar belakang perusahaan", "sejarah perusahaan", "tentang perusahaan", "profil perusahaan", "alamat"]
+    latar_belakang: [
+      "latar belakang perusahaan",
+      "sejarah perusahaan",
+      "tentang perusahaan",
+      "profil perusahaan",
+      "alamat",
+    ],
   };
 
   // Chatbot responses
@@ -146,7 +218,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Fungsi untuk menormalkan input pengguna
   const normalizeInput = (input) => {
-    return input.toLowerCase().replace(/[^\w\s]/gi, "").trim();
+    return input
+      .toLowerCase()
+      .replace(/[^\w\s]/gi, "")
+      .trim();
   };
 
   // Fungsi untuk mencocokkan kata kunci dalam input

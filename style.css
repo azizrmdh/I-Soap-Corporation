@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%; /* Pastikan halaman selalu memiliki tinggi penuh */
   margin: 0;
 }
@@ -127,9 +128,9 @@ h2 {
 
 @media (max-width: 768px) {
   .about-us h2 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
   .about-us .lead {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 }
